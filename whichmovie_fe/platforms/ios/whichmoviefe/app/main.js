@@ -7,6 +7,7 @@ var platform_1 = require("nativescript-angular/platform");
 var app_module_1 = require("./app.module");
 var SocialLogin = require("nativescript-social-login");
 var Application = require("application");
+console.log('sono qua');
 if (Application.android) {
     Application.android.onActivityCreated = function (activity) {
         var result = SocialLogin.init({

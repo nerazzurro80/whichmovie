@@ -11,7 +11,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: "my-app",
-            template: "\n    <ActionBar title=\"My App\"></ActionBar>\n    <!-- Your UI components go here -->\n  "
+            template: "\n    <ActionBar title=\"My Apd p\"></ActionBar>\n    <label>sono qua</label>\n    <!-- Your UI components go here -->\n  "
         })
     ], AppComponent);
     return AppComponent;

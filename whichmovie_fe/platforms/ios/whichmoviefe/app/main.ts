@@ -3,6 +3,8 @@ import { AppModule } from "./app.module";
 import SocialLogin = require("nativescript-social-login");
 import Application = require("application");
 
+console.log('sono qua');
+
 if (Application.android) {
     Application.android.onActivityCreated = (activity) => {
         var result = SocialLogin.init({
