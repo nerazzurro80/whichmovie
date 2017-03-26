@@ -1,0 +1,271 @@
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: i386-apple-darwin16.4.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator/include" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/nativescript-social-login/platforms/ios/headers" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Headers" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleAppUtilities/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSignIn/Frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal/" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+ignoring duplicate directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/nativescript-social-login/platforms/ios/headers
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Headers
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleAppUtilities/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSignIn/Frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: i386-apple-darwin16.4.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-isystem" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator/include" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/nativescript-social-login/platforms/ios/headers" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Headers" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseCore/Frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleAppUtilities/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSignIn/Frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal/" "-F/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "GTM_OAUTH2_USE_FRAMEWORK_IMPORTS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.4.0
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMOAuth2/GTMOAuth2.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Library/Developer/Xcode/DerivedData/whichmoviefe-dndlsddzbiqwzqgmtthcutlnfhdd/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleAppUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSignIn"
+ignoring nonexistent directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+ignoring duplicate directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/nativescript-social-login/platforms/ios/headers
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Headers
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/build/emulator (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseCore/Frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Google/Frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleAppUtilities/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSignIn/Frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/internal (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID
+ /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/Google
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:563:
+In file included from /Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h:1:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:34:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, readwrite) FIRAnalyticsConfiguration *analyticsConfiguration;
+^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:34:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:755:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/os/log.h:35:2: error: using os/log.h requires Xcode 8 or later
+#error using os/log.h requires Xcode 8 or later
+ ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:32:15: warning: redefinition of typedef 'FIRInstanceIDTokenHandler' is a C11 feature [-Wtypedef-redefinition]
+typedef void(^FIRInstanceIDTokenHandler)(NSString * __nullable token, NSError * __nullable error);
+              ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:32:15: note: previous definition is here
+typedef void(^FIRInstanceIDTokenHandler)( NSString * __nullable token, NSError * __nullable error);
+              ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:44:15: warning: redefinition of typedef 'FIRInstanceIDDeleteTokenHandler' is a C11 feature [-Wtypedef-redefinition]
+typedef void(^FIRInstanceIDDeleteTokenHandler)(NSError * __nullable error);
+              ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:44:15: note: previous definition is here
+typedef void(^FIRInstanceIDDeleteTokenHandler)(NSError * __nullable error);
+              ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:56:15: warning: redefinition of typedef 'FIRInstanceIDHandler' is a C11 feature [-Wtypedef-redefinition]
+typedef void(^FIRInstanceIDHandler)(NSString * __nullable identity, NSError * __nullable error);
+              ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:56:15: note: previous definition is here
+typedef void(^FIRInstanceIDHandler)(NSString * __nullable identity, NSError * __nullable error);
+              ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:67:15: warning: redefinition of typedef 'FIRInstanceIDDeleteHandler' is a C11 feature [-Wtypedef-redefinition]
+typedef void(^FIRInstanceIDDeleteHandler)(NSError * __nullable error);
+              ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:67:15: note: previous definition is here
+typedef void(^FIRInstanceIDDeleteHandler)(NSError * __nullable error);
+              ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:72:29: warning: redefinition of typedef 'FIRInstanceIDError' is a C11 feature [-Wtypedef-redefinition]
+typedef NS_ENUM(NSUInteger, FIRInstanceIDError) {
+                            ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:72:29: note: previous definition is here
+typedef NS_ENUM(NSUInteger, FIRInstanceIDError) {
+                            ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:72:29: error: redefinition of 'FIRInstanceIDError'
+typedef NS_ENUM(NSUInteger, FIRInstanceIDError) {
+                            ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:72:29: note: previous definition is here
+typedef NS_ENUM(NSUInteger, FIRInstanceIDError) {
+                            ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:74:3: error: redefinition of enumerator 'FIRInstanceIDErrorUnknown'
+  FIRInstanceIDErrorUnknown = 0,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:76:3: note: previous definition is here
+  FIRInstanceIDErrorUnknown = 0,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:77:3: error: redefinition of enumerator 'FIRInstanceIDErrorAuthentication'
+  FIRInstanceIDErrorAuthentication = 1,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:79:3: note: previous definition is here
+  FIRInstanceIDErrorAuthentication = 1,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:80:3: error: redefinition of enumerator 'FIRInstanceIDErrorNoAccess'
+  FIRInstanceIDErrorNoAccess = 2,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:82:3: note: previous definition is here
+  FIRInstanceIDErrorNoAccess = 2,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:83:3: error: redefinition of enumerator 'FIRInstanceIDErrorTimeout'
+  FIRInstanceIDErrorTimeout = 3,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:85:3: note: previous definition is here
+  FIRInstanceIDErrorTimeout = 3,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:86:3: error: redefinition of enumerator 'FIRInstanceIDErrorNetwork'
+  FIRInstanceIDErrorNetwork = 4,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:88:3: note: previous definition is here
+  FIRInstanceIDErrorNetwork = 4,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:90:3: error: redefinition of enumerator 'FIRInstanceIDErrorOperationInProgress'
+  FIRInstanceIDErrorOperationInProgress = 5,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:92:3: note: previous definition is here
+  FIRInstanceIDErrorOperationInProgress = 5,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:93:3: error: redefinition of enumerator 'FIRInstanceIDErrorInvalidRequest'
+  FIRInstanceIDErrorInvalidRequest = 7,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:95:3: note: previous definition is here
+  FIRInstanceIDErrorInvalidRequest = 7,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:101:28: warning: redefinition of typedef 'FIRInstanceIDAPNSTokenType' is a C11 feature [-Wtypedef-redefinition]
+typedef NS_ENUM(NSInteger, FIRInstanceIDAPNSTokenType) {
+                           ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:103:28: note: previous definition is here
+typedef NS_ENUM(NSInteger, FIRInstanceIDAPNSTokenType) {
+                           ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:101:28: error: redefinition of 'FIRInstanceIDAPNSTokenType'
+typedef NS_ENUM(NSInteger, FIRInstanceIDAPNSTokenType) {
+                           ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:103:28: note: previous definition is here
+typedef NS_ENUM(NSInteger, FIRInstanceIDAPNSTokenType) {
+                           ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:103:3: error: redefinition of enumerator 'FIRInstanceIDAPNSTokenTypeUnknown'
+  FIRInstanceIDAPNSTokenTypeUnknown,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:105:3: note: previous definition is here
+  FIRInstanceIDAPNSTokenTypeUnknown,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:105:3: error: redefinition of enumerator 'FIRInstanceIDAPNSTokenTypeSandbox'
+  FIRInstanceIDAPNSTokenTypeSandbox,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:107:3: note: previous definition is here
+  FIRInstanceIDAPNSTokenTypeSandbox,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:107:3: error: redefinition of enumerator 'FIRInstanceIDAPNSTokenTypeProd'
+  FIRInstanceIDAPNSTokenTypeProd,
+  ^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:109:3: note: previous definition is here
+  FIRInstanceIDAPNSTokenTypeProd,
+  ^
+In file included from umbrella.h:798:
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h:125:1: error: duplicate interface definition for class 'FIRInstanceID'
+@interface FIRInstanceID : NSObject
+^
+/Users/salvatorebelcastro/Sites/whichmovie/whichmovie_fe/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h:127:12: note: previous definition is here
+@interface FIRInstanceID : NSObject
+           ^
+8 warnings and 14 errors generated.
